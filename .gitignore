@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# PyCharm settings
+.idea/
+
+# Secrets (in case you add them later)
+.env
+config.py
+
+# Virtual environment
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs or databases (if you add any later)
+*.log
+*.db
+*.sqlite3
