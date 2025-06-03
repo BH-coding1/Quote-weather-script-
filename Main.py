@@ -14,6 +14,7 @@ def main():
         connection.starttls()
         connection.login(user=my_email,password=my_password)
         connection.sendmail(from_addr=my_email,to_addrs=your_email,msg=f'Subject:Your Daily Quotes and Weather\n\n{quote}\n{author}')
+
 main()
 
 
