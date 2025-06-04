@@ -52,6 +52,7 @@ def main():
             connection.starttls()
             connection.login(user=my_email,password=my_password)
             connection.sendmail(from_addr=my_email,to_addrs=your_email,
+
                                 msg=message.encode('utf-8'))
     else :
         print('Error',data.get('message'),data2.get('message'))
